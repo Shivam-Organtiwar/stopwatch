@@ -1,0 +1,28 @@
+<html>
+
+    <head>
+        <!-- Title for the web page -->
+        <title>Stopwatch</title>
+        <!-- linking the css file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- wrapping all elements under one div -->
+        <div id="wrapper"> STOPWATCH
+        <div id="timer"> 
+            <span class="min">00</span>:<span class="sec">00</span>:<span class="millisec">00</span>
+        </div>    
+
+        <ul id="button">
+            <!-- setting up start stop reset buttons -->
+            <li> <button class="start"> START </button> </li>
+            <li> <button class="stop"> STOP </button> </li>
+            <li> <button class="reset"> RESET </button> </li>
+        </ul>
+        </div>
+        <!-- linking JS file at the end of body tag -->
+        <script src="logic.js"></script>
+    </body>
+
+</html>

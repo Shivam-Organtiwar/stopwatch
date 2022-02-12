@@ -1,0 +1,58 @@
+/* setting background color for the whole page */
+body{
+    background-color:lightyellow;
+}
+
+/* styling the wrapper div */
+#wrapper{
+    height: 60px;
+    width: 330px;
+    font-size: 50px;
+    font-family:cursive;
+    font-weight: 200;
+    border: 2px solid darkmagenta;
+    position:fixed;
+    left: 40%;
+    background: lightcyan;
+}
+
+/* styling the timer */
+#timer{
+    height: 110px;
+    width: 390px;
+    background: lime;
+    font-size: 100px;
+    position:fixed;
+    top: 40%;
+    left: 38%;
+    font-family: sans-serif;
+}
+
+#button{
+    position:fixed;
+    top: 55%;
+    left: 33%;
+}
+
+#button li{
+    display: inline;
+    padding-left: 1px;
+}
+
+button{
+    width: 150px;
+    height: 100px;
+    font-family:cursive;
+    font-size: 30px;
+    border: 5px solid darkslateblue;
+    border-radius: 50px;
+    background:cyan;
+    color: coral;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: wheat;
+    color: blue;
+}
